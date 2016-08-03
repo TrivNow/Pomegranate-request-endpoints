@@ -1,6 +1,6 @@
 {
   "name": "pomegranate-request-endpoints",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Adds configured request endpoints to Pomegranate",
   "main": "index.js",
   "scripts": {
