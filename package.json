@@ -15,8 +15,9 @@
   "author": "Jim <monstertke@paperelectron.com> (http://paperelectron.com/)",
   "license": "MIT",
   "dependencies": {
-    "magnum-plugin-utils": "^1.3.1",
-    "pomegranate-request": "0.0.2"
+    "bluebird": "^3.5.1",
+    "lodash": "^4.17.10",
+    "pomegranate-request": "^1.0.0"
   },
   "devDependencies": {},
   "repository": {
@@ -26,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/TrivNow/Pomegranate-request-endpoints/issues"
   },
-  "homepage": "https://github.com/TrivNow/Pomegranate-request-endpoints#readme"
+  "homepage": "https://github.com/TrivNow/Pomegranate-request-endpoints#readme",
+  "peerDependencies": {
+    "pomegranate": "6"
+  }
 }
